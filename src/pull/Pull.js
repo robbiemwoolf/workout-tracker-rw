@@ -1,10 +1,9 @@
 import React from 'react'
-import './Push.css'
 
-export default function Push() {
+export default function Pull() {
     return (
         <div class='card'>
-            <h3>Push Day</h3>
+            <h3>Pull Day</h3>
         </div>
     )
 }
