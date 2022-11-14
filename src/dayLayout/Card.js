@@ -6,7 +6,7 @@ export default function Card() {
             <div className='card'>
                 <p className='query neonText glow'>Are you ready?</p>
                 <button className='btn neonText glow'>Let's go!</button>
-                <small className='plan pinkText'>Preview the plan?</small>
+                <small className='plan pinkText'>Preview the plan</small>
             </div>
         </div>
     )
