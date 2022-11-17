@@ -4,10 +4,11 @@ import Card from '../../dayLayout/Card'
 
 export default function Upper() {
     const day = 'Upper'
+    const path = '/upper/plan'
     return (
         <>
             <Header day={day} />
-            <Card />
+            <Card path={path}/>
         </>
     )
 }
