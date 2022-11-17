@@ -6,10 +6,11 @@ import Card from '../../dayLayout/Card'
 export default function Push() {
     const day = 'Push'
     const path = '/push/plan'
+    const query = ['Are you ready?']
     return (
         <>
             <Header day={day}/>
-            <Card path={path}/>
+            <Card path={path} query={query}/>
         </>
     )
 }
